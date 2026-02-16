@@ -1,0 +1,53 @@
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+rag key.txt
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter Notebook Checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Vector Database / Embeddings
+# =========================
+data/vectorStor/
+vectorStor/
+
+# =========================
+# Large or Generated Data
+# =========================
+data/pdf/
+data/text_files/
+data/csv/
+data/JSON/
+
+# If JSON files are generated (optional)
+*.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
